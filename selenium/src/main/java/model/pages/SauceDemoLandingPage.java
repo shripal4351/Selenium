@@ -16,10 +16,12 @@ public class SauceDemoLandingPage extends AbstractPage{
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//input[@placeholder='Username']")
+	//@FindBy(xpath = "//input[@placeholder='Username']")
+	@FindBy(css = "input.login-input[placeholder='Username']")
 	private WebElement txtUserName;
 
-	@FindBy(xpath = "//input[@placeholder='Password']")
+	//@FindBy(xpath = "//input[@placeholder='Password']")
+	@FindBy(css = "input.login-input[placeholder='Password']")
 	private WebElement txtPassword;
 
 	@FindBy(xpath = "//input[@type='submit' and @value='LOGIN']")
