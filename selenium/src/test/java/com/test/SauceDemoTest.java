@@ -20,7 +20,7 @@ public class SauceDemoTest extends AbstractTestBase {
 	@BeforeTest
 	public void setup() throws IOException {
 		//call method to initialize driver
-		super.initializeDriver();
+		//super.initializeDriver();
 		driver.get("https://www.saucedemo.com/index.html");
 	}
 	

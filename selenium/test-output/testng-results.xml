@@ -2,36 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9790" started-at="2018-12-24T00:05:25Z" finished-at="2018-12-24T00:05:35Z">
+  <suite name="TestSuite" duration-ms="1985" started-at="2018-12-30T21:06:21Z" finished-at="2018-12-30T21:06:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9790" started-at="2018-12-24T00:05:25Z" finished-at="2018-12-24T00:05:35Z">
-      <class name="sauceDemo.SauceDemoTest">
-        <test-method status="PASS" signature="beforeSuiteb()[pri:0, instance:sauceDemo.SauceDemoTest@5e5792a0]" name="beforeSuiteb" is-config="true" duration-ms="10" started-at="2018-12-24T00:05:25Z" finished-at="2018-12-24T00:05:25Z">
+    <test name="Test" duration-ms="1985" started-at="2018-12-30T21:06:21Z" finished-at="2018-12-30T21:06:23Z">
+      <class name="com.test.SauceDemoTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.SauceDemoTest@65b3f4a4]" name="setup" is-config="true" duration-ms="1034" started-at="2018-12-30T21:06:21Z" finished-at="2018-12-30T21:06:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuiteb -->
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:sauceDemo.SauceDemoTest@5e5792a0]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2018-12-24T00:05:25Z" depends-on-methods="framework.selenium.Base.beforeSuiteb" finished-at="2018-12-24T00:05:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTestb()[pri:0, instance:sauceDemo.SauceDemoTest@5e5792a0]" name="beforeTestb" is-config="true" duration-ms="0" started-at="2018-12-24T00:05:25Z" finished-at="2018-12-24T00:05:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTestb -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:sauceDemo.SauceDemoTest@5e5792a0]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-12-24T00:05:25Z" depends-on-methods="framework.selenium.Base.beforeTestb" finished-at="2018-12-24T00:05:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sauceDemo.SauceDemoTest@5e5792a0]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-12-24T00:05:25Z" finished-at="2018-12-24T00:05:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:sauceDemo.SauceDemoTest@5e5792a0]" name="firstTest" duration-ms="9773" started-at="2018-12-24T00:05:25Z" finished-at="2018-12-24T00:05:35Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.test.SauceDemoTest@65b3f4a4]" name="firstTest" duration-ms="329" started-at="2018-12-30T21:06:22Z" finished-at="2018-12-30T21:06:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-      </class> <!-- sauceDemo.SauceDemoTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.test.SauceDemoTest@65b3f4a4]" name="cleanup" is-config="true" duration-ms="605" started-at="2018-12-30T21:06:23Z" finished-at="2018-12-30T21:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.test.SauceDemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
 </testng-results>
