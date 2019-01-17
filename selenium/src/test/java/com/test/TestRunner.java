@@ -7,6 +7,8 @@ import org.testng.xml.XmlClass;
 import org.testng.xml.XmlSuite;
 import org.testng.xml.XmlTest;
 
+import com.framework.selenium.common.ExcelUtil;
+
 public class TestRunner {
 	
 	public static void main(String[] args){
@@ -30,5 +32,10 @@ public class TestRunner {
 		TestNG tng = new TestNG();
 		tng.setXmlSuites(suites);
 		tng.run();
+		
+		/*ExcelUtil excel = new ExcelUtil();
+		excel.setExcelPath("D:/Technical/Projects/Selenium/selenium/src/main/resources/Test.xlsx");
+		excel.setExcelSheetName("testing");
+		excel.getExcelData();*/
 	}
 }

@@ -5,10 +5,12 @@ import org.openqa.selenium.WebDriver;
 
 public class AppPageFactory {
 	
-	public static AbstractPage getPageObject(String className, WebDriver driver) {
+	public static AbstractPage getPageObject(Class<? extends AbstractPage> pageClass, WebDriver driver) {
 		
 		AbstractPage classObject = null;
-		switch(StringUtils.capitalize(className)) {
+		String pageClassName = pageClass.getSimpleName();
+		
+		switch(StringUtils.capitalize(pageClassName)) {
 		
 			case"SauceDemoLandingPage":
 				classObject = SauceDemoLandingPage.getPage(driver);
